@@ -1,0 +1,31 @@
+
+#CLEARBKG
+#LOADBKG LOGO
+(Today is my day off, though.)
+(I think I'll just stay home and watch some TV.)
+/i
+:002
+#CLEARBKG
+#LOADBKG sukebeTalk
+(What the...? I'm back at my apartment!)
+(Was my adventure only a dream?)
+/i
+:004
+#CLEARBKG
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+#LOADBKG minusEnd
+
+#CLEARBKG
+#LOADBKG sukebeTalk
+end of demo
+/i
+#RETURN
+#END
