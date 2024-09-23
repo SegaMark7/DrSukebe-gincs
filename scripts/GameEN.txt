@@ -1,6 +1,6 @@
-
+`
 #CLEARBKG
-#LOADBKG LOGO
+#LOADBKG Logo
 (Today is my day off, though.)
 (I think I'll just stay home and watch some TV.)
 /i
@@ -10,7 +10,16 @@
 (What the...? I'm back at my apartment!)
 (Was my adventure only a dream?)
 /i
-:004
+
+#CLEARBKG
+#LOADBKG boobs1
+ntcn
+/i
+#CLEARBKG
+#LOADBKG boobs2
+ntcn
+/i
+
 #CLEARBKG
 #LOADBKG minusEnd
 #LOADBKG minusEnd
