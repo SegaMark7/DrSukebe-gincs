@@ -1,3 +1,6 @@
 *.bkg
 *.zbc
 *.gfs
+*.cfg
+temp/*.gfs
+temp/*.zbc

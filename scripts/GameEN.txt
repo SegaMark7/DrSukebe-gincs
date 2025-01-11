@@ -1,25 +1,103 @@
 `
 #CLEARBKG
 #LOADBKG Logo
-(Today is my day off, though.)
-(I think I'll just stay home and watch some TV.)
+ 
 /i
-:002
 #CLEARBKG
 #LOADBKG sukebeTalk
-(What the...? I'm back at my apartment!)
-(Was my adventure only a dream?)
+I WELCOME YOU TO MY SCHOOL OF LOVE. I'M DR. SUKABE, AND TODAY I'M GOING TO TEACH YOU HOW TO CREATE PERFECT BOOBS. TAKE THIS DEVICE...
 /i
+'#GOTO boobs5
 
+:boobs1
 #CLEARBKG
 #LOADBKG boobs1
-ntcn
-/i
+choose + or -
+!boobs2;+
+!minusEnd;-
+/I
+
+:boobs2
 #CLEARBKG
 #LOADBKG boobs2
-ntcn
+choose + or -
+!boobs3;+
+!boobs1;-
 /i
 
+:boobs3
+#CLEARBKG
+#LOADBKG boobs3
+choose + or -
+!boobs4;+
+!boobs2;-
+/i
+
+:boobs4
+#CLEARBKG
+#LOADBKG boobs4
+choose + or -
+!boobs5;+
+!boobs3;-
+/i
+
+:boobs5
+#CLEARBKG
+#LOADBKG boobs5
+choose + or -
+!boobs6;+
+!boobs4;-
+/i
+
+:boobs6
+'#CLEARBKG
+'#LOADBKG boobs6
+'choose + or -
+'!boobs7;+
+'!boobs5;-
+'/i
+'
+':boobs7
+'#CLEARBKG
+'#LOADBKG boobs7
+'choose + or -
+'!boobs8;+
+'!boobs6;-
+'/i
+'
+':boobs8
+'#CLEARBKG
+'#LOADBKG boobs8
+'choose + or -
+'!boobs9;+
+'!boobs7;-
+'/i
+'
+':boobs9
+'#CLEARBKG
+'#LOADBKG boobs9
+'choose + or -
+'!boobs10;+
+'!boobs8;-
+'/i
+'
+':boobs10
+'#CLEARBKG
+'#LOADBKG boobs10
+'choose + or -
+'!boobs11;+
+'!boobs9;-
+'/i
+'
+':boobs11
+'#CLEARBKG
+'#LOADBKG boobs11
+'choose + or -
+'!plusEnd;+
+'!boobs10;-
+'/i
+
+:minusEnd
 #CLEARBKG
 #LOADBKG minusEnd
 #LOADBKG minusEnd
@@ -31,10 +109,25 @@ ntcn
 #LOADBKG minusEnd
 #LOADBKG minusEnd
 #LOADBKG minusEnd
+#GOTO endTalk
 
+:plusEnd
+#CLEARBKG
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+#LOADBKG plusEnd
+
+:endTalk
 #CLEARBKG
 #LOADBKG sukebeTalk
-end of demo
+NOW I KNOW WHAT YOU REALLY LOVE!
 /i
 #RETURN
 #END
