@@ -1,6 +1,8 @@
+*.smd
 *.bkg
 *.zbc
 *.gfs
 *.cfg
 temp/*.gfs
 temp/*.zbc
+temp/data.gfs

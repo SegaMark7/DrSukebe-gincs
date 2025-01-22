@@ -1,4 +1,4 @@
-`
+'#GOTO minusEnd
 #CLEARBKG
 #LOADBKG Logo
  
@@ -50,52 +50,52 @@ choose + or -
 /i
 
 :boobs6
-'#CLEARBKG
-'#LOADBKG boobs6
-'choose + or -
-'!boobs7;+
-'!boobs5;-
-'/i
-'
-':boobs7
-'#CLEARBKG
-'#LOADBKG boobs7
-'choose + or -
-'!boobs8;+
-'!boobs6;-
-'/i
-'
-':boobs8
-'#CLEARBKG
-'#LOADBKG boobs8
-'choose + or -
-'!boobs9;+
-'!boobs7;-
-'/i
-'
-':boobs9
-'#CLEARBKG
-'#LOADBKG boobs9
-'choose + or -
-'!boobs10;+
-'!boobs8;-
-'/i
-'
-':boobs10
-'#CLEARBKG
-'#LOADBKG boobs10
-'choose + or -
-'!boobs11;+
-'!boobs9;-
-'/i
-'
-':boobs11
-'#CLEARBKG
-'#LOADBKG boobs11
-'choose + or -
-'!plusEnd;+
-'!boobs10;-
-'/i
+#CLEARBKG
+#LOADBKG boobs6
+choose + or -
+!boobs7;+
+!boobs5;-
+/i
+
+:boobs7
+#CLEARBKG
+#LOADBKG boobs7
+choose + or -
+!boobs8;+
+!boobs6;-
+/i
+
+:boobs8
+#CLEARBKG
+#LOADBKG boobs8
+choose + or -
+!boobs9;+
+!boobs7;-
+/i
+
+:boobs9
+#CLEARBKG
+#LOADBKG boobs9
+choose + or -
+!boobs10;+
+!boobs8;-
+/i
+
+:boobs10
+#CLEARBKG
+#LOADBKG boobs10
+choose + or -
+!boobs11;+
+!boobs9;-
+/i
+
+:boobs11
+#CLEARBKG
+#LOADBKG boobs11
+choose + or -
+!plusEnd;+
+!boobs10;-
+/i
 
 :minusEnd
 #CLEARBKG
