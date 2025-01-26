@@ -1,0 +1,14 @@
+#CLEARBKG
+#LOADBKG gincsLogo
+Выбери язык
+choose lenguage
+!English;English
+!Russian;Русский
+/i
+:English
+#SET FL1001
+#RETURN
+:Russian
+#SET FL1004
+#RETURN
+#END
